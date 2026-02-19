@@ -1,39 +1,517 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your description here">
-    <meta property="og:title" content="Your Title Here">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourwebsite.com">
-    <meta property="og:image" content="https://yourwebsite.com/image.jpg">
-    <meta property="og:description" content="Your description here">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Your Title Here">
-    <meta name="twitter:description" content="Your description here">
-    <meta name="twitter:image" content="https://yourwebsite.com/image.jpg">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="canonical" href="https://yourwebsite.com">
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hardik Bhatt - Full-Stack Engineer & Designer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Full-Stack Engineer and Designer with 9+ years of experience. Expertise in web development, 3D modeling, and software engineering. View my portfolio and experience." />
+	<meta name="keywords" content="Full-Stack Developer, Engineer, Designer, Web Development, Portfolio, 3D Modeling, Software Engineer" />
+	<meta name="author" content="Hardik Bhatt" />
 
-        gtag('config', 'YOUR-GA-TRACKING-ID');
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-TRACKING-ID"></script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Your Site Name",
-      "url": "https://yourwebsite.com"
-    }
-    </script>
-    <title>Your Site Title</title>
-</head>
-<body>
-    <h1>Welcome to Your Website</h1>
-</body>
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="Hardik Bhatt - Full-Stack Engineer & Designer"/>
+	<meta property="og:image" content="https://hardibhattatwork.github.io/images/about.jpg"/>
+	<meta property="og:url" content="https://hardibhattatwork.github.io" />
+	<meta property="og:site_name" content="Hardik Bhatt Portfolio"/>
+	<meta property="og:description" content="Full-Stack Engineer and Designer with extensive experience in web development, 3D modeling, and software engineering."/>
+	<meta name="twitter:title" content="Hardik Bhatt - Full-Stack Engineer & Designer" />
+	<meta name="twitter:image" content="https://hardibhattatwork.github.io/images/about.jpg" />
+	<meta name="twitter:url" content="https://hardibhattatwork.github.io" />
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Schema.org markup for Person -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org/",
+	  "@type": "Person",
+	  "name": "Hardik Bhatt",
+	  "url": "https://hardibhattatwork.github.io",
+	  "image": "https://hardibhattatwork.github.io/images/about.jpg",
+	  "jobTitle": "Full-Stack Engineer & Designer",
+	  "sameAs": [
+	    "https://www.linkedin.com/in/hardik-bhatt",
+	    "https://twitter.com/hardikbhatt",
+	    "https://github.com/HardiBhattatWork"
+	  ]
+	}
+	</script>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Hardik Bhatt</a></h1>
+				<span class="position"><a href="#">Full-Stack Engineer</a> and Designer</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="services">Services</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="portfolio">Portfolio</a></li>
+						<li><a href="#" data-nav-section="media">Media</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				<p><small>&copy; Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made by Hardik Bhatt</p>
+				<ul>
+					<li><a href="https://www.facebook.com/hardikbhatt" target="_blank" rel="noopener noreferrer"><i class="icon-facebook2"></i></a></li>
+					<li><a href="https://twitter.com/hardikbhatt" target="_blank" rel="noopener noreferrer"><i class="icon-twitter2"></i></a></li>
+					<li><a href="https://www.instagram.com/hardikbhatt" target="_blank" rel="noopener noreferrer"><i class="icon-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/hardik-bhatt" target="_blank" rel="noopener noreferrer"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+			</aside>
+
+			<div id="colorlib-main">
+				<section id="colorlib-hero" class="js-fullheight" data-section="home">
+					<div class="flexslider js-fullheight">
+						<ul class="slides">
+							<li style="background-image: url(images/img_bg_1.jpg);">
+								<div class="overlay"></div>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+											<div class="slider-text-inner js-fullheight">
+												<div class="desc">
+													<h1>Hi! <br>I'm Hardik</h1>
+													<h2>My passion for Development as a whole, is a never-ending desire which allows me to practice processes, test new ideas, experiment with new technologies, develop standalone tools, and feel enthusiastic during the whole process.</h2>
+													<p><a class="btn btn-primary btn-learn" href="./doc/Hardik Bhatt Resume.pdf" download>Download CV <i class="icon-download4"></i></a></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li style="background-image: url(images/img_bg_2.jpg);">
+								<div class="overlay"></div>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+											<div class="slider-text-inner">
+												<div class="desc">
+													<h1>I am <br>a Developer</h1>
+													<h2>My greatest strength is my strong commitment to build a professional and personable rapport with all colleagues; develop and maintain a close working relationship.</h2>
+													<p><a class="btn btn-primary btn-learn" href="#portfolio">View Portfolio <i class="icon-briefcase3"></i></a></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							</ul>
+					</div>
+				</section>
+
+				<section class="colorlib-about" data-section="about">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+										<div class="about-desc">
+											<span class="heading-meta">About Us</span>
+											<h2 class="colorlib-heading">Who Am I?</h2>
+											<p>Full-Stack Engineer with 9+ years of professional experience in software development, web applications, 3D modeling, and designer tools. Passionate about building scalable solutions and learning emerging technologies.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+										<div class="services-box">
+											<div class="colorlib-narrow-content">
+											<h3>Web Development</h3>
+											<p>Building responsive and performant web applications using modern technologies</p>
+										</div>
+										</div>
+									</div>
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+										<div class="services-box">
+											<div class="colorlib-narrow-content">
+											<h3>3D Modeling</h3>
+											<p>Creating stunning 3D models and visualizations for various projects</p>
+										</div>
+										</div>
+									</div>
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+										<div class="services-box">
+											<div class="colorlib-narrow-content">
+											<h3>Software Design</h3>
+											<p>Designing and developing robust software solutions and architectures</p>
+										</div>
+										</div>
+									</div>
+									<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+										<div class="services-box">
+											<div class="colorlib-narrow-content">
+											<h3>UI/UX Design</h3>
+											<p>Creating intuitive and beautiful user interfaces and experiences</p>
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</section>
+
+				<section class="colorlib-skills" data-section="skills">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+											<span class="heading-meta">My Expertise</span>
+											<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Skills</h2>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><span class="color-a">JavaScript</span></h3>
+									<div class="progress">
+										<div class="progress-bar color-a" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+											<span>95%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="progress-wrap">
+									<h3><span class="color-b">HTML/CSS</span></h3>
+									<div class="progress">
+										<div class="progress-bar color-b" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+											<span>95%</span>
+										</div>
+									</div>
+							</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><span class="color-c">React</span></h3>
+									<div class="progress">
+										<div class="progress-bar color-c" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+											<span>90%</span>
+										</div>
+									</div>
+							</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="progress-wrap">
+									<h3><span class="color-d">Node.js</span></h3>
+									<div class="progress">
+										<div class="progress-bar color-d" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+											<span>85%</span>
+									</div>
+									</div>
+							</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="progress-wrap">
+									<h3><span class="color-e">3D Modeling</span></h3>
+									<div class="progress">
+										<div class="progress-bar color-e" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:88%">
+											<span>88%</span>
+									</div>
+									</div>
+							</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="progress-wrap">
+									<h3><span class="color-f">Python</span></h3>
+									<div class="progress">
+										<div class="progress-bar color-f" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+											<span>80%</span>
+									</div>
+									</div>
+							</div>
+							</div>
+						</div>
+					</div>
+					</section>
+
+				<section class="colorlib-experience" data-section="experience">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+											<span class="heading-meta">This is my story</span>
+											<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Work Experience</h2>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="timeline-centered">
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-a">
+										</div>
+											<div class="timeline-label">
+											<h2>Senior Full-Stack Engineer <span class="employer">Fiserv</span></h2>
+											<span class="date">July 2024 - Present</span>
+											<p>Leading development of enterprise payment processing solutions. Architecting scalable microservices and mentoring junior developers.</p>
+											</div>
+										</div>
+								</article>
+
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-b">
+										</div>
+											<div class="timeline-label">
+											<h2>Full-Stack Developer <span class="employer">Previous Company</span></h2>
+											<span class="date">2020 - 2024</span>
+											<p>Developed and maintained full-stack web applications. Implemented responsive designs and optimized performance across platforms.</p>
+											</div>
+										</div>
+								</article>
+
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-c">
+										</div>
+											<div class="timeline-label">
+											<h2>Software Engineer <span class="employer">Tech Company</span></h2>
+											<span class="date">2018 - 2020</span>
+											<p>Built scalable backend systems and contributed to frontend development. Worked with modern JavaScript frameworks and cloud technologies.</p>
+											</div>
+										</div>
+								</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<section class="colorlib-services" data-section="services">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+											<span class="heading-meta">What I do</span>
+											<h2 class="colorlib-heading">Services</h2>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="row row-pt-md">
+							<div class="col-md-4 text-center animate-box" data-animate-effect="fadeInLeft">
+								<div class="services-box">
+									<div class="colorlib-narrow-content">
+											<i class="icon-briefcase"></i>
+											<h3>Web Development</h3>
+											<p>Full-stack web application development with modern frameworks and best practices</p>
+										</div>
+									</div>
+								</div>
+							<div class="col-md-4 text-center animate-box" data-animate-effect="fadeInLeft">
+								<div class="services-box">
+									<div class="colorlib-narrow-content">
+											<i class="icon-cube"></i>
+											<h3>3D Modeling & Design</h3>
+											<p>Professional 3D modeling and visualization services for various applications</p>
+										</div>
+									</div>
+								</div>
+							<div class="col-md-4 text-center animate-box" data-animate-effect="fadeInLeft">
+								<div class="services-box">
+									<div class="colorlib-narrow-content">
+											<i class="icon-mobile"></i>
+											<h3>Responsive Design</h3>
+											<p>Mobile-first and responsive UI/UX design for all devices and screen sizes</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							</div>
+					</section>
+
+				<section class="colorlib-education" data-section="education">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+											<span class="heading-meta">Education</span>
+											<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">School</h2>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="timeline-centered">
+									<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+										<div class="timeline-entry-inner">
+											<div class="timeline-icon color-a">
+										</div>
+											<div class="timeline-label">
+											<h2>Bachelor of Engineering in Computer Science</h2>
+											<span class="date">Graduation Year</span>
+											<p>Relevant coursework in software engineering, data structures, and web development</p>
+											</div>
+										</div>
+								</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<section class="colorlib-portfolio" id="portfolio" data-section="portfolio">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+											<span class="heading-meta">My Creative Side</span>
+											<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Recent Projects</h2>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="portfolio-entry animate-box" data-animate-effect="fadeInLeft">
+									<a href="#" class="portfolio-img" style="background-image: url(images/portfolio-1.jpg);">
+										<div class="desc">
+											<span>Web Application</span>
+											<h3>Project Name</h3>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					</section>
+
+				<section class="colorlib-media" data-section="media">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+											<span class="heading-meta">My Media</span>
+											<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Samples</h2>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+									<p>Check out my 3D models and design work on my portfolio platforms.</p>
+								</div>
+						</div>
+					</div>
+					</section>
+
+				<section class="colorlib-contact" data-section="contact">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+									<div class="col-md-12">
+											<span class="heading-meta">Get in Touch</span>
+											<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Contact</h2>
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5 animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-feature colorlib-feature-sm">
+									<div class="colorlib-icon">
+										<i class="icon-globe"></i>
+									</div>
+									<div class="colorlib-text">
+											<p><a href="https://hardibhattatwork.github.io">hardibhattatwork.github.io</a></p>
+										</div>
+								</div>
+
+								<div class="colorlib-feature colorlib-feature-sm">
+									<div class="colorlib-icon">
+										<i class="icon-mail"></i>
+									</div>
+									<div class="colorlib-text">
+											<p><a href="mailto:contact@hardibhatt.com">contact@hardibhatt.com</a></p>
+										</div>
+								</div>
+							</div>
+							<div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
+								<p>Feel free to reach out for collaborations, project inquiries, or just a friendly hello!</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
