@@ -1,13 +1,15 @@
+# Operating System files
 .DS_Store
-.AppleDouble
-.LSOverride
 Thumbs.db
+
+# Build tools
 node_modules/
-.cache/
-dist/
-build/
-.vscode/
+bower_components/
+
+# IDE files
 .idea/
-*.swp
-*.swo
-prepros-6.config
+*.sublime-workspace
+*.sublime-project
+
+# Prepros config
+.prepros_config.json
