@@ -1,0 +1,31 @@
+@media print {
+    /* Disable animations */
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    /* Hide navigation elements */
+    nav, .navigation, .header {
+        display: none !important;
+    }
+
+    /* Ensure all content is visible */
+    body {
+        visibility: visible !important;
+        position: static !important;
+    }
+
+    /* Optimize for PDF export */
+    html, body {
+        height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    /* Prevent blank pages */
+    page-break-before: avoid;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
