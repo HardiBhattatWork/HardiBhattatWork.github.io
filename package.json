@@ -1,0 +1,1 @@
+{\n  "name": "my-project",\n  "version": "1.0.0",\n  "scripts": {\n    "build": "sass src/styles:dist/styles",\n    "watch": "sass --watch src/styles:dist/styles"\n  },\n  "dependencies": {\n    "bootstrap": "^5.0.0",\n    "jquery": "^3.7.0"\n  },\n  "devDependencies": {\n    "sass": "^1.45.0"\n  }\n}
