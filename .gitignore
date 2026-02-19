@@ -1,0 +1,13 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+node_modules/
+.cache/
+dist/
+build/
+.vscode/
+.idea/
+*.swp
+*.swo
+prepros-6.config
